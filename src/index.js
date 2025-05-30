@@ -1,5 +1,6 @@
-require('dotenv').config();
+#!/usr/bin/env node
 
+require('dotenv').config();
 const {startSSEServer} = require("./server/sse");
 const {startStdioServer} = require("./server/stdio");
 const {logger} = require("./utils/logger");

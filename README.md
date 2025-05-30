@@ -21,7 +21,7 @@ Hexiaoyi MCP是一种模型上下文协议实现，通过人工智能接口实�
 {
   "mcpServers": {
     "hexiaoyi-mcp": {
-      "command": "node",
+      "command": "npx",
       "args": ["-y", "@dddd-community/hexiaoyi-mcp-js@latest"],
       "env": {
         "TWITTER_APP_KEY": "",
